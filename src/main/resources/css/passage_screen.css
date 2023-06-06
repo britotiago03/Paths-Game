@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Libre Baskerville Regular';
+    src: url('../fonts/LibreBaskerville-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Libre Baskerville Bold';
+    src: url('../fonts/LibreBaskerville-Bold.ttf');
+}
+
+.root-style {
+
+}
+
+.user-profile-container {
+    -fx-padding: 20px 20px 0px 0px;
+    -fx-alignment: top-center;
+    -fx-spacing: 20px;
+}
+
+.username-label {
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-effect: dropshadow( one-pass-box , black , 1 , 0.0 , 0 , 1 );
+    -fx-font-family: "Libre Baskerville", serif;
+    -fx-font-weight: bold;
+}
+
+.user-image-container {
+    -fx-background-color: rgb(217, 217, 217);
+}
+
+.player-stats-container {
+    -fx-alignment: top-right;
+    -fx-spacing: 10px;
+}
+
+.player-stats-grid-pane {
+    -fx-min-width: 150px;
+    -fx-padding: 10px;
+    -fx-hgap: 20px;
+    -fx-background-color: rgb(217, 217, 217);
+}
+
+.attribute-label {
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-effect: dropshadow( one-pass-box , black , 1 , 0.0 , 0 , 1 );
+    -fx-font-family: "Libre Baskerville", serif;
+    -fx-wrap-text: true;
+}
+
+.button-container {
+    -fx-alignment: bottom-center;
+    -fx-spacing: 10px;
+}
+
+.button-style {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 80px;
+    -fx-background-color: rgb(100, 0, 0);
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( one-pass-box , black , 1 , 0.0 , 0 , 1 );
+    -fx-font-family: "Libre Baskerville", serif;
+    -fx-font-size: 20px;
+    -fx-wrap-text: true;
+}
+
+.button-style:hover {
+    -fx-background-color: rgb(70, 0, 0);
+}
+
+.player-stats-button-style {
+    -fx-alignment: center-left;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 20px;
+    -fx-background-color: rgb(100, 0, 0);
+}
+
+.player-stats-button-style:hover {
+    -fx-background-color: rgb(70, 0, 0);
+}
+
+.player-stats-button-label {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( one-pass-box , black , 1 , 0.0 , 0 , 1 );
+    -fx-font-family: "Libre Baskerville", serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.passage-content-label {
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, black, 3, 0, 0, 2);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-font-family: "Libre Baskerville", serif;
+    -fx-wrap-text: true;
+    -fx-font-weight: bold;
+}
+
+.bottom-half-container {
+    -fx-alignment: bottom-center;
+    -fx-spacing: 20px;
+    -fx-padding: 30px;
+}
+
+.center-vbox {
+    -fx-padding: 0px 0px 30px 30px;
+}

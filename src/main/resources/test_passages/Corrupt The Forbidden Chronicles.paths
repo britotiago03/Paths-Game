@@ -1,0 +1,47 @@
+::forbidden_chronicles_opening_passage
+Deep within the ancient kingdom of Eldoria, a place shrouded in mystery and darkness, lies a forbidden tome known as the Chronicles of Eldarion. Legend speaks of its immense power and the dangers it holds for those who dare to unlock its secrets. Drawn by curiosity and a thirst for knowledge, a brave adventurer named Aria embarks on a treacherous quest to uncover the truth hidden within its pages.
+[Continue] (forbidden_chronicles_enter_forbidden_library_passage)
+
+::forbidden_chronicles_enter_forbidden_library_passage
+Aria stands before the towering gates of the forbidden library, said to be guarded by ancient spirits and protected by powerful enchantments. With each step, the air grows colder, and whispers of forgotten souls echo through the wind. Undeterred by the looming perils, she pushes open the doors and steps into the heart of darkness.
+[Continue] (forbidden_chronicles_face_gauntlet_of_trials_passage)
+
+::forbidden_chronicles_face_gauntlet_of_trials_passage
+Within the depths of the library, Aria faces a gauntlet of trials designed to test her strength, wit, and resolve. Each chamber presents a unique challenge, from intricate puzzles to treacherous traps. Failure means the loss of precious time and a perilous setback on her journey.
+[Solve the cryptic riddles] (forbidden_chronicles_solve_cryptic_riddles_passage) {Reduce 20 health, Add 50 points to score}
+[Navigate the shifting maze of illusions] (forbidden_chronicles_navigate_shifting_maze_passage) {Reduce 30 health, Add 70 points to score}
+[Outsmart the ancient guardians] (forbidden_chronicles_outsmart_ancient_guardians_passage) {asdsadadsdasReduce 40 health, Add 90 points to score}
+
+::forbidden_chronicles_solve_cryptic_riddles_passage
+Aria's mind races as she unravels the intricate web of cryptic riddles. With each correct answer, a path opens before her. However, a single mistake leads to unforeseen consequences, draining her precious energy and causing her to question her choices.
+[Continue] (forbidden_chronicles_face_maelstrom_of_darkness_passage)
+
+::forbidden_chronicles_navigate_shifting_maze_passage
+As Aria steps into the shifting maze, the walls twist and distort, creating an ever-changing labyrinth of illusions. She must rely on her instincts and sharp intellect to decipher the true path. A wrong turn leads to an endless cycle of confusion, draining her strength with each futile attempt.
+[Continue] (forbidden_chronicles_face_maelstrom_of_darkness_passage)
+
+::forbidden_chronicles_outsmart_ancient_guardians_passage
+Aria matches wits with the ancient guardians, employing strategy and cunning to outsmart their traps and counter their attacks. Yet, even the slightest misstep results in punishing blows, leaving her battered and vulnerable.
+[Continue] (forbidden_chronicles_face_maelstrom_of_darkness_passage)
+
+::forbidden_chronicles_face_maelstrom_of_darkness_passage
+Having conquered the gauntlet of trials, Aria reaches the heart of the forbidden library—a chamber known as the Maelstrom of Darkness. Here, she encounters a swirling vortex of malevolent energy, threatening to consume all who dare to approach. The path to the Chronicles of Eldarion lies within, but the price of failure is dire.
+[Confront the Maelstrom head-on] (forbidden_chronicles_confront_maelstrom_head-on_passage) {Reduce 50 health, Add 100 points to score}
+[Channel the power of ancient relics] (forbidden_chronicles_channel_power_of_relics_passage) {Reduce 30 health, Add 70 points to score}
+[Seek guidance from library spirit] (forbidden_chronicles_seek_guidance_from_spirit_passage) {Reduce 20 health, Add 50 points to score}
+
+::forbidden_chronicles_confront_maelstrom_head-on_passage
+With unwavering determination, Aria confronts the Maelstrom of Darkness head-on, summoning every ounce of her strength and willpower. The battle is fierce, and the odds are against her, but her determination fuels her resolve.
+[Continue] (forbidden_chronicles_story_failed)
+
+::forbidden_chronicles_channel_power_of_relics_passage
+Drawing upon the power of ancient relics she collected throughout her journey, Aria channels their energy to create a shield against the malevolent force of the Maelstrom. The relics crackle with power, providing a temporary respite, but their influence wanes over time.
+[Continue] (forbidden_chronicles_story_failed)
+
+::forbidden_chronicles_seek_guidance_from_spirit_passage
+Aria humbles herself before the spirit of the library, pleading for guidance and protection. In a moment of transcendence, she forms a deep connection with the spirit, who imparts ancient wisdom and warns her of the risks ahead. With the spirit's blessing, she enters the Maelstrom, fortified with newfound resilience.
+[Continue] (forbidden_chronicles_story_failed)
+
+::forbidden_chronicles_story_failed
+With unwavering determination, Aria confronts the Maelstrom of Darkness head-on, summoning every ounce of her strength and willpower. The battle is fierce, and the odds are against her, but her determination fuels her resolve.
+[no_links]

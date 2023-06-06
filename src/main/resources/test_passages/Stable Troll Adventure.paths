@@ -1,0 +1,68 @@
+Troll Adventure
+
+::troll_adventure_opening_passage
+You start your quest by walking through a bridge, when suddenly...
+[Continue] (troll_adventure_you_see_troll_passage) {Add Sword to inventory, Add Magic_Grimoire to inventory}
+
+::troll_adventure_story_success_passage
+As you swing your sword, the troll notices you. With a skillful maneuver, the troll redirects your sword, and it pierces your chest. You die.
+[no_links]
+
+::troll_adventure_try_to_make_love_passage
+In a moment of passionate connection, you and the troll share a romantic love session. As a token of appreciation, the troll rewards you with 1000 gold coins. You receive 300 score points.
+[Continue] (troll_adventure_story_success_passage) {no_actions}
+
+::troll_adventure_blow_kiss_passage
+The troll is surprised and decides to move closer to you.
+[Kiss the troll] (troll_adventure_kiss_troll_passage) {Add 100 points to score}
+[Attack the troll] (troll_adventure_attack_troll_passage) {Add 100 points to score}
+
+::troll_adventure_what_to_do_passage1
+What will you do?
+[Talk to the troll] (troll_adventure_talk_to_troll_passage) {Add 50 points to score}
+[Attack the troll] (troll_adventure_attack_troll_passage) {Add 100 points to score}
+[Run away] (troll_adventure_run_away_passage) {Reduce 100 health}
+
+::troll_adventure_you_see_troll_passage
+You come face to face with a fearsome troll. You have your sword and your magic grimoire in your inventory
+[Continue] (troll_adventure_what_to_do_passage1) {no_actions}
+
+::troll_adventure_say_hello_passage
+The troll doesn't understand what you say and kills you.
+[Continue] (troll_adventure_story_failed_passage) {no_actions}
+
+::troll_adventure_kiss_troll_passage
+The troll kisses you back and takes you to her house.
+[Try to make love] (troll_adventure_try_to_make_love_passage) {Add 1000 gold, Add 300 points to score}
+[Run away] (troll_adventure_run_away_passage) {Reduce 100 health}
+
+::troll_adventure_keep_running_passage
+Despite your best efforts, the troll catches up to you, delivering a powerful blow. Your health diminishes, and with your last breath, you realize the futility of your escape attempt.
+[Continue] (troll_adventure_story_failed_passage) {no_actions}
+
+::troll_adventure_talk_to_troll_passage
+How do you want to talk to the troll?
+[Say hello] (troll_adventure_say_hello_passage) {Reduce 100 health}
+[Blow a kiss] (troll_adventure_blow_kiss_passage) {Add 100 points to score}
+
+::troll_adventure_attack_troll_passage
+How do you want to attack the troll?
+[Use your sword] (troll_adventure_use_sword_passage) {Reduce 100 health, Add 100 points to score}
+[Cast a magic spell] (troll_adventure_cast_magic_spell_passage) {Add 100 gold, Add 50 points to score}
+
+::troll_adventure_cast_magic_spell_passage
+Harnessing the powers of magic, you cast a devastating spell that turns the troll to stone. As the troll solidifies, it shatters into a pile of rubble, revealing 100 gold coins. You gain the gold coins and 50 score points.
+[Continue] (troll_adventure_story_success_passage) {no_actions}
+
+::troll_adventure_use_sword_passage
+As you swing your sword, the troll notices you. With a skillful maneuver, the troll redirects your sword, and it pierces your chest. You die.
+[Continue] (troll_adventure_story_failed_passage) {no_actions}
+
+::troll_adventure_run_away_passage
+The troll sees you and runs after you.
+[Keep running] (troll_adventure_keep_running_passage) {Reduce 100 health}
+[Stop and cast a magic spell] (troll_adventure_cast_magic_spell_passage) {Add 100 gold, Add 50 points to score}
+
+::troll_adventure_story_failed_passage
+As you swing your sword, the troll notices you. With a skillful maneuver, the troll redirects your sword, and it pierces your chest. You die.
+[no_links]

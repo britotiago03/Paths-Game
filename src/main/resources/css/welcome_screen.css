@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Libre Baskerville Regular';
+    src: url('../fonts/LibreBaskerville-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Libre Baskerville Bold';
+    src: url('../fonts/LibreBaskerville-Bold.ttf');
+}
+
+.root-style {
+
+}
+
+.title-label {
+    -fx-font-size: 50px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, black, 3, 0, 0, 2);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-padding: 20 0 0 0;
+    -fx-font-family: "Libre Baskerville", serif;
+    -fx-font-weight: bold;
+}
+
+.info-container {
+    -fx-alignment: center;
+    -fx-background-color: rgb(217, 217, 217);
+    -fx-padding: 50px;
+    -fx-spacing: 50px;
+}
+
+.info-text-label {
+    -fx-wrap-text: true;
+    -fx-font-size: 30px;
+    -fx-text-fill: black;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-font-family: "Libre Baskerville", serif;
+    -fx-font-weight: bold;
+}
+
+.info-text-container {
+    -fx-min-height: 80px;
+    -fx-alignment: center;
+}
+
+.name-field-text-label {
+    -fx-font-size: 30px;
+    -fx-text-fill: black;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-font-family: "Libre Baskerville", serif;
+}
+
+.name-field-text-area {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 25px;
+    -fx-text-fill: black;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-font-family: "Libre Baskerville", serif;
+}
+
+.gender-field-text-label {
+    -fx-font-size: 30px;
+    -fx-text-fill: black;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-font-family: "Libre Baskerville", serif;
+}
+
+.gender-combo-box {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 25px;
+    -fx-text-fill: black;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-font-family: "Libre Baskerville", serif;
+}
+
+.input-grid-pane {
+    -fx-hgap: 40px;
+    -fx-vgap: 10px;
+    -fx-alignment: center;
+}
+
+.button-style {
+    -fx-pref-width: 320px;
+    -fx-pref-height: 60px;
+    -fx-background-color: rgb(100, 0, 0);
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( one-pass-box , black , 1 , 0.0 , 0 , 1 );
+    -fx-font-family: "Libre Baskerville", serif;
+    -fx-font-size: 30px;
+}
+
+.button-style:hover {
+    -fx-background-color: rgb(70, 0, 0);
+}
+
+.center-vbox {
+    -fx-padding: 0px 0xp 30px 0px;
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}
+
